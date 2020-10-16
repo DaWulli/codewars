@@ -1,7 +1,7 @@
-import {rowSumOddNumbers} from './sum-of-odd-numbers/sum-of-odd-numbers';
+import {past} from './clock/clocks';
 
 export async function main(): Promise<void> {
-	console.log(rowSumOddNumbers(4));
+	console.log(past(0, 1, 1));
 }
 
 main()
