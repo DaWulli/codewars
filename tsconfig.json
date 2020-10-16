@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "es2015",
+		"lib": [
+			"es2015",
+			"dom"
+		],
+		"strict": true,
+		"sourceMap": false,
+		"skipLibCheck": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"alwaysStrict": true,
+		"esModuleInterop": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true
+	},
+	"include": [
+		"src/**/*"
+	]
+}
